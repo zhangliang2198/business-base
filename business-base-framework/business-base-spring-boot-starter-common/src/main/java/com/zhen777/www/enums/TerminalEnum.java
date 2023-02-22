@@ -1,6 +1,6 @@
 package com.zhen777.www.enums;
 
-import cn.iocoder.yudao.framework.common.core.IntArrayValuable;
+import com.zhen777.www.core.IntArrayValuable;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

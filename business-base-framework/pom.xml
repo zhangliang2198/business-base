@@ -11,6 +11,7 @@
     <modules>
         <module>business-base-spring-boot-starter-banner</module>
         <module>business-base-spring-boot-starter-common</module>
+        <module>business-base-spring-boot-starter-monitor</module>
     </modules>
     <artifactId>business-base-framework</artifactId>
     <packaging>pom</packaging>

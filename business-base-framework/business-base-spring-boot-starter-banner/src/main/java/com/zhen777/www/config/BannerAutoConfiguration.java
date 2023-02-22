@@ -1,6 +1,6 @@
 package com.zhen777.www.config;
 
-import cn.iocoder.yudao.framework.banner.core.BannerApplicationRunner;
+import com.zhen777.www.core.BannerApplicationRunner;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
  * @author 芋道源码
  */
 @AutoConfiguration
-public class BBBannerAutoConfiguration {
+public class BannerAutoConfiguration {
 
     @Bean
     public BannerApplicationRunner bannerApplicationRunner() {

@@ -1,6 +1,6 @@
 package com.zhen777.www.enums;
 
-import cn.iocoder.yudao.framework.common.core.IntArrayValuable;
+import com.zhen777.www.core.IntArrayValuable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -15,6 +15,9 @@ import java.util.Arrays;
 @AllArgsConstructor
 public enum CommonStatusEnum implements IntArrayValuable {
 
+    /**
+     * 启用
+     */
     ENABLE(0, "开启"),
     DISABLE(1, "关闭");
 

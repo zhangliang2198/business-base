@@ -8,6 +8,8 @@
         <artifactId>business-base</artifactId>
         <version>${revision}</version>
     </parent>
+    <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
     <description>
         后端 Server 的主项目，通过引入需要 business-base-xxxx 的依赖，
         从而实现提供 RESTful API 给 business-base-ui-admin、business-base-ui-user 等前端项目。
@@ -15,7 +17,23 @@
     </description>
     <url>https://github.com/zhangliang2198/business-base</url>
     <artifactId>business-base-server</artifactId>
-
+    <dependencies>
+        <!-- spring boot 配置所需依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>business-base-spring-boot-starter-banner</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>business-base-supports-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
     <build>
         <!-- 设置构建的 jar 包名 -->
         <finalName>${project.artifactId}</finalName>

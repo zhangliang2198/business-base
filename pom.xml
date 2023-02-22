@@ -8,7 +8,6 @@
     <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>
-        <module>business-base-dependencies</module>
         <module>business-base-supports</module>
         <module>business-base-framework</module>
         <module>business-base-server</module>

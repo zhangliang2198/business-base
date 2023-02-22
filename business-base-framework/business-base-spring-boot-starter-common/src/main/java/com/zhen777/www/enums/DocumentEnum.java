@@ -12,6 +12,9 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum DocumentEnum {
 
+    /**
+     * 复述,安装
+     */
     REDIS_INSTALL("https://gitee.com/zhijiantianya/ruoyi-vue-pro/issues/I4VCSJ", "Redis 安装文档"),
     TENANT("https://doc.iocoder.cn", "SaaS 多租户文档");
 
