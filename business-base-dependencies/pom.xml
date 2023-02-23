@@ -166,7 +166,11 @@
 <!--                <artifactId>yudao-spring-boot-starter-security</artifactId>-->
 <!--                <version>${revision}</version>-->
 <!--            </dependency>-->
-
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-openapi3-spring-boot-starter</artifactId>

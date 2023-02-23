@@ -1,5 +1,5 @@
 server:
-  port: 48080
+  port: 8080
 
 --- #################### 数据库相关配置 ####################
 
@@ -125,11 +125,16 @@ resilience4j:
 
 # Actuator 监控端点的配置项
 management:
+  server:
+    port: 8080  # 指定监听端口，不指定则与server端口一直
   endpoints:
     web:
       base-path: /actuator # Actuator 提供的 API 接口的根目录。默认为 /actuator
       exposure:
         include: '*' # 需要开放的端点。默认值只打开 health 和 info 两个端点。通过设置 * ，可以开放所有端点。
+  info: # spring-boot 2.6以后info默认值为false.需手动开启
+    env:
+      enabled: true
 
 # Spring Boot Admin 配置项
 spring:

@@ -1,2 +1,2 @@
-cn.iocoder.yudao.framework.tracer.config.YudaoTracerAutoConfiguration
-cn.iocoder.yudao.framework.tracer.config.YudaoMetricsAutoConfiguration
+com.zhen777.www.framework.monitor.config.BBTracerAutoConfiguration
+com.zhen777.www.framework.monitor.config.BBMetricsAutoConfiguration
