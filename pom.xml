@@ -4,18 +4,30 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zhen777.www</groupId>
-    <artifactId>business-base</artifactId>
+    <artifactId>gaia</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>
-        <module>business-base-supports</module>
-        <module>business-base-framework</module>
-        <module>business-base-server</module>
+        <module>gaia-dependencies</module>
+        <module>gaia-framework</module>
+        <!-- Server 主项目 -->
+        <module>gaia-server</module>
+        <!-- 各种 module 拓展 -->
+        <module>gaia-module-member</module>
+        <module>gaia-module-system</module>
+        <module>gaia-module-infra</module>
+        <module>gaia-module-pay</module>
+        <module>gaia-module-bpm</module>
+        <module>gaia-module-report</module>
+        <module>gaia-module-mp</module>
+        <module>gaia-module-mall</module>
+        <!-- 示例项目 -->
+        <module>gaia-example</module>
     </modules>
 
     <name>${project.artifactId}</name>
-    <description>项目基础脚手架</description>
-    <url>https://github.com/zhangliang2198/business-base</url>
+    <description>芋道项目基础脚手架</description>
+    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
 
     <properties>
         <revision>1.7.0-snapshot</revision>
@@ -36,13 +48,14 @@
         <dependencies>
             <dependency>
                 <groupId>com.zhen777.www</groupId>
-                <artifactId>business-base-dependencies</artifactId>
+                <artifactId>gaia-dependencies</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -83,7 +96,7 @@
         </pluginManagement>
     </build>
 
-    <!-- 使用 aliyun 的 Maven 源，提升下载速度 加速 -->
+    <!-- 使用 aliyun 的 Maven 源，提升下载速度 -->
     <repositories>
         <repository>
             <id>aliyunmaven</id>
