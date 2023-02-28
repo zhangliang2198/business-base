@@ -42,47 +42,47 @@
         </dependency>
 
         <!-- 数据报表 -->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-report-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-report-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
         <!-- 工作流 -->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-bpm-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-bpm-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
         <!-- 支付服务 -->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-pay-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-pay-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
 
         <!-- 微信公众号模块。默认注释，保证编译速度 -->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-mp-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-mp-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
 
         <!-- 商城相关模块。默认注释，保证编译速度 -->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-promotion-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-product-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.zhen777.www</groupId>-->
-<!--            <artifactId>gaia-module-trade-biz</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-promotion-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-product-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zhen777.www</groupId>
+            <artifactId>gaia-module-trade-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
 
         <!-- spring boot 配置所需依赖 -->
         <dependency>
