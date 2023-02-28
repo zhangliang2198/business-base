@@ -1,0 +1,2 @@
+com.zhen777.gaia.framework.datasource.config.GaiaDataSourceAutoConfiguration
+com.zhen777.gaia.framework.mybatis.config.GaiaMybatisAutoConfiguration

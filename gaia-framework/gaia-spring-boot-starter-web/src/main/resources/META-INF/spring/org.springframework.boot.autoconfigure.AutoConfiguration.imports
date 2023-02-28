@@ -1,0 +1,6 @@
+com.zhen777.gaia.framework.apilog.config.GaiaApiLogAutoConfiguration
+com.zhen777.gaia.framework.jackson.config.GaiaJacksonAutoConfiguration
+com.github.xiaoymin.knife4j.spring.configuration.Knife4jAutoConfiguration
+com.zhen777.gaia.framework.swagger.config.GaiaSwaggerAutoConfiguration
+com.zhen777.gaia.framework.web.config.GaiaWebAutoConfiguration
+com.zhen777.gaia.framework.xss.config.GaiaXssAutoConfiguration

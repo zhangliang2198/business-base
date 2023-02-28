@@ -1,0 +1,2 @@
+com.zhen777.gaia.framework.tracer.config.GaiaTracerAutoConfiguration
+com.zhen777.gaia.framework.tracer.config.GaiaMetricsAutoConfiguration

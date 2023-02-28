@@ -1,0 +1,2 @@
+com.zhen777.gaia.framework.security.config.GaiaSecurityAutoConfiguration
+com.zhen777.gaia.framework.security.config.GaiaWebSecurityConfigurerAdapter

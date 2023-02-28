@@ -1,0 +1,2 @@
+com.zhen777.gaia.framework.redis.config.GaiaRedisAutoConfiguration
+com.zhen777.gaia.framework.redis.config.GaiaCacheAutoConfiguration

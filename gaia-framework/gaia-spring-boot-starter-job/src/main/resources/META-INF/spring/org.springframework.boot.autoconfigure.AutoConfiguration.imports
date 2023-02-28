@@ -1,0 +1,2 @@
+com.zhen777.gaia.framework.quartz.config.GaiaQuartzAutoConfiguration
+com.zhen777.gaia.framework.quartz.config.GaiaAsyncAutoConfiguration
