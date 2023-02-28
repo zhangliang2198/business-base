@@ -49,4 +49,8 @@ public class PayRefundCreateReqDTO {
     @NotNull(message = "退款金额不能为空")
     @Min(value = 1, message = "退款金额必须大于零")
     private Integer amount;
+
+    @NotNull(message = "商户订单号")
+    @Min(value = 1, message = "商户订单号")
+    private Integer merchantOrderId;
 }
