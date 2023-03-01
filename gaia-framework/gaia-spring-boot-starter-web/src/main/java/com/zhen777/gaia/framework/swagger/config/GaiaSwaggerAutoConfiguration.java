@@ -49,11 +49,10 @@ public class GaiaSwaggerAutoConfiguration {
     public OpenAPI createApi(SwaggerProperties properties) {
         Map<String, SecurityScheme> securitySchemas = buildSecuritySchemes();
         OpenAPI openAPI = new OpenAPI()
-                // 接口信息
-                .info(buildInfo(properties))
-                // 接口安全配置
-                .components(new Components().securitySchemes(securitySchemas))
-                .addSecurityItem(new SecurityRequirement().addList(HttpHeaders.AUTHORIZATION));
+            // 接口信息
+            .info(buildInfo(properties))
+            // 接口安全配置
+            .components(new Components().securitySchemes(securitySchemas));
         securitySchemas.keySet().forEach(key -> openAPI.addSecurityItem(new SecurityRequirement().addList(key)));
         return openAPI;
     }
@@ -152,4 +151,3 @@ public class GaiaSwaggerAutoConfiguration {
     }
 
 }
-
